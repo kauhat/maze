@@ -1,5 +1,5 @@
 {
-  "name": "maze-generator",
+  "name": "typescript-maze-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@types/p5": "1.4.0",
-    "parcel-bundler": "^1.6.1"
+    "p5": "0.9.0"
   },
   "devDependencies": {
-    "typescript": "4.4.4"
+    "parcel-bundler": "^1.6.1"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"

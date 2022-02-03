@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "module": "es6",
+    "module": "commonjs",
     "jsx": "preserve",
     "esModuleInterop": true,
     "sourceMap": true,
@@ -10,9 +9,6 @@
       "es6",
       "dom"
     ],
-    // "types": [
-    //   "p5/global"
-    // ],
     "rootDir": "src",
     "moduleResolution": "node"
   }
