@@ -1,3 +1,97 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
 body {
-  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  background-color: #f4f4f6;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.lightbox {
+  /* width: calc(clamp(20rem, 66vw + 4rem, 80rem)); */
+  /* min-height: 100%; */
+  margin: 0.5rem -1rem;
+  padding: 0.5rem 1rem;
+
+  background-color: #f9f9fa;
+  box-shadow: var(--shadow-elevation-low);
+}
+
+.sketch {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+
+  background-color: #ffffff;
+  box-shadow: var(--shadow-elevation-low);
+}
+
+:root {
+  --shadow-color: 240deg 3% 56%;
+  --shadow-elevation-low: 0.2px 0.3px 0.4px hsl(var(--shadow-color) / 0.33),
+    0.4px 0.6px 0.9px -1px hsl(var(--shadow-color) / 0.37),
+    0.9px 1.4px 2px -2.1px hsl(var(--shadow-color) / 0.41);
+  --shadow-elevation-medium: 0.2px 0.3px 0.4px hsl(var(--shadow-color) / 0.34),
+    0.8px 1.3px 1.8px -0.7px hsl(var(--shadow-color) / 0.38),
+    2px 3px 4.3px -1.4px hsl(var(--shadow-color) / 0.41),
+    4.7px 7.2px 10.2px -2.1px hsl(var(--shadow-color) / 0.44);
+  --shadow-elevation-high: 0.2px 0.3px 0.4px hsl(var(--shadow-color) / 0.36),
+    1.8px 2.8px 3.9px -0.3px hsl(var(--shadow-color) / 0.38),
+    3.5px 5.4px 7.6px -0.7px hsl(var(--shadow-color) / 0.4),
+    6px 9.2px 13px -1px hsl(var(--shadow-color) / 0.42),
+    9.9px 15.2px 21.5px -1.4px hsl(var(--shadow-color) / 0.44),
+    16px 24.6px 34.8px -1.8px hsl(var(--shadow-color) / 0.46),
+    24.9px 38.2px 54px -2.1px hsl(var(--shadow-color) / 0.48);
 }
