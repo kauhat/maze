@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "es6",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    // "types": [
+    //   "p5/global"
+    // ],
+    "rootDir": "src",
+    "moduleResolution": "node"
+  }
+}
